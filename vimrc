@@ -17,6 +17,8 @@ Bundle 'garbas/vim-snipmate'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-powerline'
  
 nnoremap <silent> <F5> :NERDTree<CR>
  
@@ -33,3 +35,5 @@ set ai
 set ts=4
 set sts=4
 set sw=4
+set laststatus=2
+let g:Powerline_symbols = 'unicode'
