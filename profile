@@ -1,3 +1,4 @@
+source /etc/bashrc
 PATH=${PATH}:/usr/local/share/python
 
 export WORKON_HOME=$HOME/.virtualenvs
