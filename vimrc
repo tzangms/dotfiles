@@ -26,14 +26,19 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip
  
 set t_Co=256
 syntax on
+filetype indent on
 filetype plugin on
 colorscheme wombat256mod
 set fileencoding=utf-8
 set encoding=utf-8
 set expandtab
-set ai
-set ts=4
-set sts=4
-set sw=4
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set autoindent
 set laststatus=2
+set nobackup
+set nowritebackup
+set noswapfile
+
 let g:Powerline_symbols = 'unicode'
