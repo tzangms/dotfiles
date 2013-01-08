@@ -3,4 +3,5 @@ repository = ~/.dotfiles
 ignore = [
     '.git',
     '.gitignore',
+    'bootstrap.sh',
     '*.swp']
