@@ -15,3 +15,4 @@ export VIRTUALENVWRAPPER_SCRIPT=${VENVWRAPPER_PATH}/virtualenvwrapper.sh
 source ${VENVWRAPPER_PATH}/virtualenvwrapper_lazy.sh
 
 set -o vi
+alias ls='ls --color'
