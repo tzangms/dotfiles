@@ -6,7 +6,7 @@ then
 fi
 
 if [ $OSTYPE == 'linux-gnu' ]; then
-    sudo aptitude install build-essential python-setuptools
+    sudo aptitude install build-essential python-dev libpq-dev python-setuptools
 fi
 
 # install python packages
