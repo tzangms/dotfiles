@@ -9,5 +9,9 @@ if [ $OSTYPE == 'linux-gnu' ]; then
     sudo aptitude install build-essential python-setuptools
 fi
 
+# install python packages
 sudo easy_install pip
 sudo pip install -r requirements.txt
+
+# install heroku toolbelt
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
