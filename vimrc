@@ -19,6 +19,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'Rykka/riv.vim.git'
  
 nnoremap <silent> <F5> :NERDTree<CR>
  
@@ -26,7 +27,6 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip
  
 set t_Co=256
 syntax on
-filetype indent on
 filetype plugin on
 colorscheme wombat256mod
 set fileencoding=utf-8
