@@ -17,7 +17,6 @@ export VIRTUALENVWRAPPER_SCRIPT=${VENVWRAPPER_PATH}/virtualenvwrapper.sh
 source ${VENVWRAPPER_PATH}/virtualenvwrapper_lazy.sh
 
 set -o vi
-
 alias http='python -m SimpleHTTPServer'
 
 export AWS_CONFIG_FILE=$HOME/.awsrc
