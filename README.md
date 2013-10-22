@@ -11,3 +11,7 @@ To install dotfiles on new machines, just follow these steps below
     $ dotfiles --sync
 
 And it's all done.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tzangms/dotfiles/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
