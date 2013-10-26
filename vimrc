@@ -20,6 +20,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'Rykka/riv.vim'
+Bundle 'airblade/vim-gitgutter'
  
 nnoremap <silent> <F5> :NERDTree<CR>
  

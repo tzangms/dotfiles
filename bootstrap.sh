@@ -1,3 +1,11 @@
+# dotfilesrc
+DOTFILESRC=~/.dotfilesrc
+
+if [ ! -f $DOTFILESRC ]; then
+    cp ~/.dotfiles/dotfilesrc ~/.dotfilesrc
+fi
+
+# install vundle
 VUNDLE=~/.vim/bundle/vundle
 
 if [ ! -d $VUNDLE ]; 
@@ -11,7 +19,10 @@ fi
 
 # install python packages
 sudo easy_install pip
-sudo pip install -r requirements.txt
+sudo pip install -r ~/.dotfiles/requirements.txt
 
-# install heroku toolbelt
-wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+dotfiles --sync
+
+# install vundles
+vim +BundleInstall +qall
