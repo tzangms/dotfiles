@@ -3,3 +3,5 @@
 	email = tzangms@gmail.com
 [core]
 	editor = /usr/bin/vim
+[push]
+	default = simple
