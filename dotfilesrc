@@ -6,4 +6,5 @@ ignore = [
     '.gitignore',
     'requirements.txt',
     'bootstrap.sh',
+    'git-completion.bash',
     '*.swp']

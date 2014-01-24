@@ -18,7 +18,8 @@ Bundle 'flazz/vim-colorschemes'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'bling/vim-airline'
+"Bundle 'Lokaltog/vim-powerline'
 Bundle 'Rykka/riv.vim'
 Bundle 'airblade/vim-gitgutter'
  
@@ -43,3 +44,5 @@ set nowritebackup
 set noswapfile
 
 let g:Powerline_symbols = 'unicode'
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline_powerline_fonts = 1
