@@ -19,8 +19,6 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'bling/vim-airline'
-"Bundle 'Lokaltog/vim-powerline'
-Bundle 'Rykka/riv.vim'
 Bundle 'airblade/vim-gitgutter'
  
 nnoremap <silent> <F5> :NERDTree<CR>
