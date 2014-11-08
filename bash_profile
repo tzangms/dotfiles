@@ -11,7 +11,3 @@ fi
 alias ls='ls -G'
 set -o vi
 export PATH=/usr/local/bin:$PATH
-
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.dotfiles/git-completion.bash
-fi
