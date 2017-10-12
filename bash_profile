@@ -11,3 +11,6 @@ fi
 alias ls='ls -G'
 set -o vi
 export PATH=/usr/local/bin:$PATH
+
+# hub
+alias git=hub
