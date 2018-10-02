@@ -13,13 +13,11 @@ then
     git clone https://github.com/gmarik/vundle.git $VUNDLE
 fi
 
-if [ $OSTYPE == 'linux-gnu' ]; then
-    sudo aptitude install build-essential python-dev libpq-dev python-setuptools
-fi
-
 # install python packages
-sudo easy_install pip
-sudo pip install -r ~/.dotfiles/requirements.txt
+if ! [ -x "$(command -v pip)" ]; then
+    sudo easy_install pip
+    sudo pip install -r ~/.dotfiles/requirements.txt
+fi
 
 
 dotfiles --sync
@@ -28,7 +26,9 @@ dotfiles --sync
 vim +BundleInstall +qall
 
 # homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+if ! [ -x "$(command -v brew)" ]; then
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install wget
-brew install hub
+    brew install wget
+    brew install hub
+fi

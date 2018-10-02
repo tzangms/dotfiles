@@ -6,7 +6,6 @@ call vundle#rc()
  
 Bundle 'gmarik/vundle'
 Bundle 'python.vim'
-Bundle 'pyflakes.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'groenewege/vim-less'
 Bundle 'lastpos.vim'
@@ -28,7 +27,6 @@ set wildignore+=*/tmp/*,*.so,*.pyc,*.swp,*.zip,*.orig
 set t_Co=256
 syntax on
 filetype plugin on
-colorscheme wombat256mod
 set fileencoding=utf-8
 set encoding=utf-8
 set expandtab
