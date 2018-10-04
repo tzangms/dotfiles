@@ -31,4 +31,5 @@ if ! [ -x "$(command -v brew)" ]; then
 
     brew install wget
     brew install hub
+    brew install pyenv
 fi
